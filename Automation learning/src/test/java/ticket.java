@@ -19,8 +19,9 @@ public class ticket{
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-dashboard/div/div[2]/div[2]/app-backlog/app-add-edit-dialog/p-dialog/div/div/div[2]/div/div/div[1]/div[1]/div[1]/textarea"))).sendKeys("sample1");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-dashboard/div/div[2]/div[2]/app-backlog/app-add-edit-dialog/p-dialog/div/div/div[2]/div/div/div[1]/div[1]/div[2]/p-inputnumber/span/input"))).sendKeys("1");
       wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-dashboard/div/div[2]/div[2]/app-backlog/app-add-edit-dialog/p-dialog/div/div/div[2]/div/div/div[1]/div[1]/div[3]/textarea"))).sendKeys("sample1");
-      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-dashboard/div/div[2]/div[2]/app-backlog/app-add-edit-dialog/p-dialog/div/div/div[2]/div/div/div[1]/div[1]/div[4]/textarea"))).sendKeys("sample1");
-      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-dashboard/div/div[2]/div[2]/app-backlog/app-add-edit-dialog/p-dialog/div/div/div[2]/div/div/div[1]/div[1]/div[5]/div[2]/p-editor/div/div[2]/div[1]"))).sendKeys("sample1");
+      Thread.sleep(2000);
+      wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-dashboard/div/div[2]/div[2]/app-backlog/app-add-edit-dialog/p-dialog/div/div/div[2]/div/div/div[1]/div[1]/div[4]/div[2]/p-editor/div/div[2]/div[1]/p"))).sendKeys("sample1");
+    //  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-dashboard/div/div[2]/div[2]/app-backlog/app-add-edit-dialog/p-dialog/div/div/div[2]/div/div/div[1]/div[1]/div[5]/div[2]/p-editor/div/div[2]/div[1]"))).sendKeys("sample1");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-dashboard/div/div[2]/div[2]/app-backlog/app-add-edit-dialog/p-dialog/div/div/div[2]/div/div/div[1]/div[1]/div[6]/textarea"))).sendKeys("status");
         Thread.sleep(2000);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/app-root/app-dashboard/div/div[2]/div[2]/app-backlog/app-add-edit-dialog/p-dialog/div/div/div[2]/div/div/div[1]/div[1]/div[7]/textarea"))).sendKeys("high");
